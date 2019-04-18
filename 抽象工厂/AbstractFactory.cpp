@@ -136,6 +136,7 @@ int main()
 {
 	AdvanceGuiEngineer* pEng = new AdvanceGuiEngineer();
 	pEng->prepareMaterials(new Schema1);
+	pEng->prepareMaterials(new Schema2);
 	system("pause");
 	return 0;
 }
